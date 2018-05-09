@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Ultimate Party Planner</string>
+    <string name="imgViewUltimateParty">imageViewParty</string>
+    <string name="btnChooseDate">Choose Date</string>
+    <string name="rdoGroupParties">radioGroupParties</string>
+    <string name="rdoButtonPajama">Pajama Party</string>
+    <string name="rdoButtonPizza">Pizza Party</string>
+    <string name="rdoButtonGraduation">Graduation Party</string>
+    <string name="rdoButtonRetirement">Retirement Party</string>
+    <string name="rdoButtonHoliday">Holiday Party</string>
+    <string name="txtViewAppDescription">Thanks for choosing Ultimate Party Planners to assist in the
+    planning of your party!  It is our pleasure to work with you to help create a party that
+    you and your guests will remember forever.  Our experienced party planners will get the most out
+    of your budget so your guests not only have a great time, but will always see your party as
+    a benchmark that they need to meet.  Our planners have experience in every kind of party.  Whether
+    it be a pajama party, retirement party, Halloween party, or whatever else you could think of,
+    our planners will plan the event so its a night to remember.  We require all dates to be set
+        with us before hand so a party planner can be in attendance.  Please fill out the form below,
+    and the best qualified planner will be in touch with you shortly!</string>
+    <string name="txtViewOutput"> </string>
+    <string name="btnNextStep">Next Step</string>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TableRow>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewUltimateParty"
+            android:contentDescription="@string/imgViewUltimateParty"
+            android:longClickable="true"
+            android:paddingBottom="16dp"
+            android:paddingRight="16dp"/>
+        <TableRow>
+
+            <TextView
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:text="@string/txtViewAppDescription"
+                android:id="@+id/textViewAppDescription"
+                android:contentDescription="@string/txtViewAppDescription"
+                android:contextClickable="false" />
+        </TableRow>
+    </TableRow>
+
+    <TableRow>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/rdoGroupParties"
+            android:id="@+id/radioGroupParties">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rdoButtonPajama"
+                android:id="@+id/radioButtonPajama"
+                android:contentDescription="@string/rdoButtonPajama"
+                android:onClick="onRadioButtonClicked"
+                android:enabled="true" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rdoButtonPizza"
+                android:id="@+id/radioButtonPizza"
+                android:contentDescription="Pizza Party"
+                android:onClick="onRadioButtonClicked"
+                android:enabled="false" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rdoButtonGraduation"
+                android:id="@+id/radioButtonGraduation"
+                android:contentDescription="@string/rdoButtonGraduation"
+                android:contextClickable="false"
+                android:onClick="onRadioButtonClicked" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rdoButtonRetirement"
+                android:id="@+id/radioButtonRetirement"
+                android:contentDescription="@string/rdoButtonRetirement"
+                android:onClick="onRadioButtonClicked" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rdoButtonHoliday"
+                android:id="@+id/radioButtonHoliday"
+                android:contentDescription="@string/rdoButtonHoliday"
+                android:onClick="onRadioButtonClicked" />
+        </RadioGroup>
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnChooseDate"
+            android:id="@+id/buttonChooseDate" />
+    </TableRow>
+
+    <TableRow android:transitionGroup="false">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnNextStep"
+            android:id="@+id/buttonNextStep"
+            android:contentDescription="@string/btnNextStep" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtViewOutput"
+            android:id="@+id/textViewOutput"
+            android:contentDescription="@string/txtViewOutput"
+            android:layout_column="1" />
+    </TableRow>
+</TableLayout>
